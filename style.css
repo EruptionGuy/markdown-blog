@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --bg: #131416;
+    --secondary-bg: #222831;
+    --link: #1e90ff;
+    --text: #ffffff;
+    --secondary-text: #b0b3b8;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    /* font-size: 120%; */
+    padding: 2rem;
+    margin: 0 10%;
+    background-color: var(--bg);
+    color: var(--text);
+}
+  
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.post-preview {
+    margin-bottom: 5%;
+    width: 30%;
+}
+
+.preview-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.post-meta {
+    color: var(--secondary-text);
+    font-size: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+  
