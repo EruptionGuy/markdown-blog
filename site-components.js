@@ -1,10 +1,12 @@
 // Navbar
 const navbar = ` 
 <nav>
-    <p><a href="./index.html">eCON CLUB</a></p>
-    <div class="search">
-      <input type="text" id="searchInput" placeholder="Search"/>
-      <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    <div>
+      <p><a href="./index.html">eCON CLUB</a></p>
+      <div class="search">
+        <input type="text" id="searchInput" placeholder="Search"/>
+        <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
     </div>
 </nav>`;
 
