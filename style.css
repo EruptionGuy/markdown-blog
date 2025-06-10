@@ -3,7 +3,9 @@
 :root {
     --bg: #131416;
     --secondary-bg: #222831;
+    --secondary-bg-hover: #2e3640;
     --link: #9f7aea;
+    --link-hover: #bfa3ff;
     --text: #ffffff;
     --secondary-text: #b0b3b8;
 }
@@ -133,7 +135,7 @@ nav a:hover {
 
 #latest-post .post-preview {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     gap: 2rem;
     padding: 2rem;
     background-color: var(--secondary-bg);
@@ -149,4 +151,26 @@ nav a:hover {
 a {
     text-decoration: none;
     color: var(--link);
+}
+
+a:hover {
+    color: var(--link-hover);
+    transition: all 0.5s ease-in-out;
+}
+
+#categories {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 5%;
+}
+
+#categories a {
+    display: block;
+    background-color: var(--secondary-bg);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#categories a:hover {
+    background-color: var(--secondary-bg-hover);
 }
