@@ -4,31 +4,19 @@
   <meta charset="UTF-8">
   <title>My Blog</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="main-page">
   <header>
-    <nav>
-        <p><a href="./index.html">eCON CLUB</a></p>
-        <div class="search">
-          <label for="search">Search</label>
-          <input type="text" id="search" />
-        </div>
-    </nav>
-    <div id="header">
       <div id="econ">
         <img src="./images/logo.jpg" alt="logo" style="border-radius: 50%; width: 15%;">
         <div>
-          <h1>eCON Club</h1>
+          <h1>eCON CLUB</h1>
           <p>A vibrant community for individuals passionate about the dynamic world of economics!</p>
         </div>
-    </div>
-    <a href="#about">
-      <div class="down">
-        <p><i class="fa-solid fa-chevron-down"></i></p>
       </div>
-    </a>
   </header>
-  <main class="home-main">
+  <main>
     <h2>Latest Article</h2>
     <div id="latest-post"></div>
 
@@ -38,9 +26,10 @@
     <h2>All Articles</h2>
     <div id="posts"></div>
   </main>
-  <footer></footer>
+  
 
   <script src="libs/marked.min.js"></script>
   <script src="script.js"></script>
+  <script src="site-components.js"></script>
 </body>
 </html>

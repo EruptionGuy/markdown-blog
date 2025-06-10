@@ -27,7 +27,11 @@ fetch(`posts/${file}`)
     const container = document.getElementById('post');
     container.innerHTML = `
       <h1>${meta.title || file.replace('.md', '')}</h1>
-      <p class="post-meta">By ${meta.author || 'Unknown'} &nbsp;&bull;&nbsp; ${new Date(meta.date).toLocaleDateString()}</p>
+      <div class="post-meta">
+        <p><span class="post-meta-type">By</span>&nbsp;&nbsp;${meta.author || 'Unknown'}</p>
+        <p><span class="post-meta-type">Published</span>&nbsp;&nbsp;${new Date(meta.date).toLocaleDateString()}</p>
+        <p><span class="post-meta-type">Category</span>&nbsp;&nbsp;<a class="category-link" href="category.html?category=${encodeURIComponent(meta.category)}">${meta.category}</a></p>
+      </div>
       ${meta.image ? `<img src="${meta.image}" class="post-image" alt="${meta.title}">` : ''}
       ${htmlContent}
     `;

@@ -4,6 +4,7 @@
     --bg: #131416;
     --secondary-bg: #222831;
     --secondary-bg-hover: #2e3640;
+    --navbar-bg: #1e1e2f;
     --link: #9f7aea;
     --link-hover: #bfa3ff;
     --text: #ffffff;
@@ -23,40 +24,53 @@ body {
     background-color: var(--bg);
     color: var(--text);
 }
-
-header {
-    background-image: url("./images/banner.png");
-    background-attachment: fixed;
-    height: 35em;
-    margin-bottom: 6em;
-  }
   
 nav {
     z-index: 1000;
     width: 100%;
     padding: 1.5rem 10%;
-    background-color: var(--bg);
+    background-color: var(--navbar-bg);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     font-size: 120%;
 }
 
 .search {
     display: flex;
     align-items: center;
-    gap: 1rem; /* space between label and input */
     width: 30%;
 }
 
-#search {
-    border-radius: 0;
-    border: 0;
+#searchInput {
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 2px solid var(--link);
     background-color: var(--secondary-bg);
     padding: 0.5em;
     width: 150%;
+    font-size: 70%;
+    color: var(--text);
+}
+
+#searchButton {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 2px solid var(--link);
+    background-color: var(--link);
+    padding: 0.5em;
+    font-size: 70%;
+    color: var(--text)
+}
+
+#searchButton:hover {
+    background-color: var(--link-hover);
+    border-color: var(--link-hover);
+    transition: all 0.5s ease-in-out;
 }
 
 nav a {
@@ -69,10 +83,14 @@ nav a:hover {
     transition: all 0.5s ease-in-out;
 }
 
-#header {
+.main-page header {
     display: flex;
     height: 35em;
     justify-content: center;
+    background-image: url("./images/banner.png");
+    background-attachment: fixed;
+    height: 35em;
+    margin-bottom: 6em;
 }
 
 #econ {
@@ -82,27 +100,26 @@ nav a:hover {
     justify-content: center;
     margin: 14rem 10%;
     padding: 2rem;
-    border-radius: 0.65rem;
+    border-radius: 0.5rem;
     background-color: rgba(34, 40, 48, 0.8);
 }
 
-.home-main {
+main {
     margin: 0 10%;
     padding: 2rem;
 }
 
-.home-main h2 {
+main h2 {
     font-size: 200%;
     margin-bottom: 2rem;
 }
 
-.home-main h3 {
+main h3 {
     margin-bottom: 0.5rem;
 }
 
-.post-page {
+.post-page main {
     margin: 0 25%;
-    font-size: 120%;
 }
 
 #posts {
@@ -131,6 +148,53 @@ nav a:hover {
     margin-top: 0.5rem;
     color: var(--secondary-text);
     font-size: 85%;
+}
+
+.post-meta-type {
+    opacity: 0.6;
+}
+
+.post-page .post-meta {
+    display: flex;
+    gap: 5%;
+    color: var(--text)
+}
+
+.post-page .post-image {
+    margin: 2rem 0;
+}
+
+.post-page h1 {
+    font-size: 300%;
+    margin-bottom: 2rem;
+}
+
+.post-page h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 250%;
+}
+
+.post-page h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 200%;
+}
+
+.post-page h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 150%;
+}
+
+.post-page p {
+    margin-bottom: 1rem;
+}
+
+.post-page code {
+    background-color: var(--secondary-bg);
+    padding: 0.25em;
+    border-radius: 0.5rem;
 }
 
 #latest-post .post-preview {
@@ -173,4 +237,60 @@ a:hover {
 
 #categories a:hover {
     background-color: var(--secondary-bg-hover);
+}
+
+footer {
+    background-color: #1e1e2f;
+    color: #ccc;
+    padding: 3rem 2rem 1rem;
+    font-size: 95%;
+    border-top: 1px solid #2f2f44;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
+    margin-top: 4rem;
+}
+  
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15%;
+    max-width: 1200px;
+    margin: auto;
+}
+  
+.footer-section {
+    flex: 1 1 200px;
+}
+  
+.footer-section h4 {
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+  
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-section ul li {
+    margin: 0.4rem 0;
+}
+  
+.footer-section ul li a {
+    color: var(--link);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.footer-section ul li a:hover {
+    color: var(--link-hover);
+}
+  
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #2f2f44;
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #888;
 }

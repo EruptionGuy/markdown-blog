@@ -2,22 +2,25 @@
 const posts = [
   '2025-06-09-another-day.md',
   '2025-06-08-my-first-post.md',
+  '2025-06-09-another-day.md',
+  '2025-06-10-i-love-econ.md',
+  '2025-06-08-my-first-post.md',
+  '2025-06-10-i-love-econ.md',
   '2025-06-08-my-first-post.md',
   '2025-06-08-my-first-post.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-08-my-first-post.md',
+  '2025-06-09-another-day.md',
 ];
 
+const url = new URL(window.location.href);
+const pathname = url.pathname;
+const currentPage = pathname.substring(pathname.lastIndexOf('/') + 1);
+
 const container = document.getElementById('posts');
-const latestContainer = document.getElementById('latest-post');
+const latestContainer = document.getElementById('latest-post') || null;
 const categoriesContainer = document.getElementById('categories') || null;
 
 const allPosts = [];
 
-// Extract YAML frontmatter
 function extractMetadata(markdown) {
   const meta = {};
   const match = markdown.match(/^---\n([\s\S]*?)\n---/);
@@ -80,25 +83,38 @@ Promise.all(posts.map(filename =>
 )).then(() => {
   allPosts.sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date));
 
-  // Latest post
-  if (latestContainer && allPosts[0]) {
-    renderPostPreview(allPosts[0].metadata, allPosts[0].filename, allPosts[0].content, latestContainer);
-  }
+  if (currentPage === "index.html" || currentPage === "") {
+    if (latestContainer && allPosts[0]) {
+      renderPostPreview(allPosts[0].metadata, allPosts[0].filename, allPosts[0].content, latestContainer);
+    }
 
-  // All posts
-  allPosts.forEach(post => {
-    renderPostPreview(post.metadata, post.filename, post.content, container);
-  });
+    allPosts.forEach(post => {
+      renderPostPreview(post.metadata, post.filename, post.content, container);
+    });
 
-  // Render unique categories
-  if (categoriesContainer) {
-    const uniqueCategories = [...new Set(allPosts.map(p => p.metadata.category || 'Uncategorized'))];
-    uniqueCategories.forEach(cat => {
-      const link = document.createElement('a');
-      link.href = `category.html?category=${encodeURIComponent(cat)}`;
-      link.textContent = cat;
-      link.style.marginRight = '1rem';
-      categoriesContainer.appendChild(link);
+    if (categoriesContainer) {
+      const uniqueCategories = [...new Set(allPosts.map(p => p.metadata.category || 'Uncategorized'))];
+      uniqueCategories.forEach(cat => {
+        const link = document.createElement('a');
+        link.href = `category.html?category=${encodeURIComponent(cat)}`;
+        link.textContent = cat;
+        link.style.marginRight = '1rem';
+        categoriesContainer.appendChild(link);
+      });
+    }
+  } else if (currentPage === "category.html") {
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetCategory = urlParams.get('category');
+
+    document.getElementById('category-title').textContent = `Articles in "${targetCategory}"`;
+
+    const filteredPosts = allPosts.filter(post => {
+      const category = post.metadata.category || 'Uncategorized';
+      return category === targetCategory;
+    });
+
+    filteredPosts.forEach(post => {
+      renderPostPreview(post.metadata, post.filename, post.content, container);
     });
   }
 });

@@ -1,8 +1,8 @@
 ---
 title: Lorem Ipsum
-author: Econ
+author: eCON
 date: 2025-06-08
-category: Microeconomics
+category: Economic Trends
 image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
 ---
 
