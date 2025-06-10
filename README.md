@@ -53,5 +53,5 @@ This is a simple static blog built using **HTML**, **CSS**, and **JavaScript**, 
 ## Notes
 Posts are loaded dynamically using JavaScript and `fetch()`. Because of this, direct opening of index.html from the filesystem might cause issues in some browsers. Use a local web server if needed.
 
-## Authors
-Created by @EruptionGuy
+## Author
+This project was created by [@EruptionGuy](https://github.com/EruptionGuy)
