@@ -1,3 +1,5 @@
+document.body.classList.add('post-page');
+
 const params = new URLSearchParams(window.location.search);
 const file = params.get('file');
 
@@ -25,7 +27,7 @@ fetch(`posts/${file}`)
     const container = document.getElementById('post');
     container.innerHTML = `
       <h1>${meta.title || file.replace('.md', '')}</h1>
-      <p class="post-meta">By ${meta.author || 'Unknown'} &nbsp;|&nbsp; ${new Date(meta.date).toLocaleDateString()}</p>
+      <p class="post-meta">By ${meta.author || 'Unknown'} &nbsp;&bull;&nbsp; ${new Date(meta.date).toLocaleDateString()}</p>
       ${meta.image ? `<img src="${meta.image}" class="post-image" alt="${meta.title}">` : ''}
       ${htmlContent}
     `;

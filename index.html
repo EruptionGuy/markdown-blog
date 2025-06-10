@@ -6,12 +6,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Econ Club</h1>
-  <header></header>
-  <main></main>
+  <header>
+    <nav>
+        <p><a href="./index.html">eCON CLUB</a></p>
+        <div class="search">
+          <label for="search">Search</label>
+          <input type="text" id="search" />
+        </div>
+    </nav>
+    <div id="header">
+      <div id="econ">
+        <img src="./images/logo.jpg" alt="logo" style="border-radius: 50%; width: 15%;">
+        <div>
+          <h1>eCON Club</h1>
+          <p>A vibrant community for individuals passionate about the dynamic world of economics!</p>
+        </div>
+    </div>
+    <a href="#about">
+      <div class="down">
+        <p><i class="fa-solid fa-chevron-down"></i></p>
+      </div>
+    </a>
+  </header>
+  <main class="home-main">
+    <h2>Latest Article</h2>
+    <div id="latest-post"></div>
+
+    <h2>Categories</h2>
+    <div id="categories"></div>
+
+    <h2>All Articles</h2>
+    <div id="posts"></div>
+  </main>
   <footer></footer>
-  
-  <div id="posts"></div>
 
   <script src="libs/marked.min.js"></script>
   <script src="script.js"></script>

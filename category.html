@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Category</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <p><a href="./index.html">eCON CLUB</a></p>
+    </nav>
+  </header>
+
+  <main>
+    <h2 id="category-title"></h2>
+    <div id="posts"></div>
+  </main>
+
+  <script src="libs/marked.min.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetCategory = urlParams.get('category');
+    document.getElementById('category-title').textContent = `Articles in "${targetCategory}"`;
+
+    const posts = [
+      '2025-06-09-another-day.md',
+      '2025-06-08-my-first-post.md',
+    ];
+    const container = document.getElementById('posts');
+
+    function extractMetadata(markdown) {
+      const meta = {};
+      const match = markdown.match(/^---\n([\s\S]*?)\n---/);
+      if (match) {
+        const lines = match[1].split('\n');
+        lines.forEach(line => {
+          const [key, ...rest] = line.split(':');
+          meta[key.trim()] = rest.join(':').trim();
+        });
+      }
+      return meta;
+    }
+
+    posts.forEach(filename => {
+      fetch(`posts/${filename}`)
+        .then(response => response.text())
+        .then(markdown => {
+          const metadata = extractMetadata(markdown);
+          const category = metadata.category || 'Uncategorized';
+          if (category === targetCategory) {
+            const content = markdown.replace(/^---\n[\s\S]*?\n---/, '').trim();
+            const lines = content.split('\n');
+            if (lines[0].startsWith('# ')) lines.shift();
+            const previewText = lines.join(' ').substring(0, 300) + "...";
+            const previewHtml = marked.parse(previewText);
+
+            const postPreview = document.createElement('div');
+            postPreview.className = 'post-preview';
+            postPreview.innerHTML = `
+              <a href="post.html?file=${filename}">
+                <h3>${metadata.title || filename}</h3>
+                ${metadata.image ? `<img src="${metadata.image}" class="preview-image">` : ''}
+              </a>
+              ${previewHtml}
+              <p class="post-meta">${metadata.date}</p>
+            `;
+            container.appendChild(postPreview);
+          }
+        });
+    });
+  </script>
+</body>
+</html>
