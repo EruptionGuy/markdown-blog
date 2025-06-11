@@ -330,6 +330,7 @@ footer {
   gap: 1rem;
   width: 20%;
   margin-top: 3rem;
+  align-self: flex-start;
 }
 
 .share-btn {
