@@ -24,9 +24,9 @@ const footer = `
       <div class="footer-section">
         <h4>QUICK LINKS</h4>
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./index.html/#latest-post">Latest Post</a></li>
-          <li><a href="./index.html/#category.html">Categories</a></li>
+          <li><a href="./">Home</a></li>
+          <li><a href="./#latest-post2">Latest Post</a></li>
+          <li><a href="./#categories2">Categories</a></li>
         </ul>
       </div>
   

@@ -25,6 +25,19 @@ html {
     line-height: 1.6;
     background-color: var(--bg);
     color: var(--text);
+    scroll-behavior: smooth !important;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+*.active{
+    transform: translateY(0);
+    opacity: 1;
 }
   
 nav {
@@ -288,8 +301,8 @@ a:hover {
     background-color: var(--secondary-bg);
     padding: 0.5rem;
     border-radius: 0.5rem;
-    min-width: 300px;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 #categories div:hover {
@@ -372,12 +385,15 @@ footer {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     html {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .post-preview {
         width: 100%;
+    }
+    .post-meta {
+        font-size: 1.2rem;
     }
     #search {
         width: 70%;
@@ -386,6 +402,10 @@ footer {
         padding: 0;
         padding-bottom: 2rem;
         background: 0;
+    }
+    #categories div {
+        font-size: 1.5rem;
+        min-width: 300px;
     }
     .post-page main {
         flex-direction: column;
