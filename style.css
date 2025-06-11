@@ -364,12 +364,14 @@ footer {
     color: #888;
 }
 
+/* Tablets */
 @media (max-width: 1500px) {
     :root {
         --margin: 2.5%;
     }
 }
 
+/* Tablets */
 @media (max-width: 1150px) {
     .post-preview {
         width: 47.5%;
@@ -385,7 +387,8 @@ footer {
     }
 }
 
-@media (max-width: 700px) {
+/* Phones */  
+@media (max-device-width: 600px) and (orientation: portrait) {
     html {
         font-size: 1.5rem;
     }
@@ -410,9 +413,6 @@ footer {
     .post-page main {
         flex-direction: column;
     }
-    #post {
-        width: 100%;
-    }
     .share-buttons {
         width: 100%;
         flex-direction: row;
@@ -423,6 +423,9 @@ footer {
         margin-top: 2rem;
     }
     #progress-bar {
-        display: none;
+       display: none;
+    }
+    #post {
+        width: 100%;
     }
 }
