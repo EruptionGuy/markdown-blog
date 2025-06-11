@@ -35,4 +35,6 @@ fetch(`posts/${file}`)
       ${meta.image ? `<img src="${meta.image}" class="post-image" alt="${meta.title}">` : ''}
       ${htmlContent}
     `;
+    document.title = meta.title + " - eCON Club";
   });
+

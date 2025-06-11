@@ -121,6 +121,7 @@ Promise.all(posts.map(filename =>
       const query = urlParams.get('q')?.toLowerCase() || "";
     
       document.querySelector("h2").textContent = `Search Results for "${query}"`;
+      document.getElementById("searchInput").value = query;
     
       const container = document.getElementById("posts");
       if (!container) return;
