@@ -9,12 +9,77 @@
 <body>
   <header></header>
   <main>
-    <h1 id="category-title"></h2>
+    <div class="share-buttons">
+      <div id="progress-bar"></div>
+      <p>Share</p>
+      <a href="#" onclick="copyLink()" class="share-btn"><i class="fa fa-link"></i></a>
+      <a onclick="shareOnX()" target="_blank" class="share-btn">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a onclick="shareOnLinkedIn()" target="_blank" class="share-btn">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a onclick="shareOnFacebook()" target="_blank" class="share-btn">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+    </div>
     <div id="post"></div>
 
     <script src="libs/marked.min.js"></script>
     <script src="post.js"></script>
     <script src="site-components.js"></script>
+    <script src="search.js"></script>
+    <script>
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const scrollPercent = (scrollTop / docHeight) * 100;
+        document.getElementById('progress-bar').style.width = scrollPercent + '%';
+      });
+
+      
+      // Copy link
+      const url = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+
+      function copyLink() {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(window.location.href)
+            .then(() => alert("Link copied to clipboard!"))
+            .catch(() => fallbackToTextarea());
+        } else {
+          fallbackToTextarea();
+        }
+      }
+
+      function fallbackToTextarea() {
+        const textarea = document.createElement("textarea");
+        textarea.value = window.location.href;
+        textarea.setAttribute("readonly", "");
+        textarea.style.position = "absolute";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        alert("Link copied to clipboard!");
+      }
+
+
+      // Share
+      function shareOnX() {
+        window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, "_blank");
+      }
+
+      function shareOnLinkedIn() {
+        window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${title}`, "_blank");
+      }
+
+      function shareOnFacebook() {
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank");
+      }
+
+    </script>    
   </main>
 </body>
 </html>

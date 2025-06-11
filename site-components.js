@@ -2,11 +2,11 @@
 const navbar = ` 
 <nav>
     <div>
-      <p><a href="./index.html">eCON CLUB</a></p>
-      <div class="search">
+      <h4><a href="./index.html">eCON CLUB</a></h4>
+      <form id="search">
         <input type="text" id="searchInput" placeholder="Search"/>
-        <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
-      </div>
+        <button id="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
     </div>
 </nav>`;
 
@@ -17,12 +17,12 @@ const footer = `
 <footer class="site-footer">
     <div class="footer-content">
       <div class="footer-section">
-        <h4>About eCON Club</h4>
+        <h4>eCON CLUB</h4>
         <p>A vibrant community for individuals passionate about the dynamic world of economics.</p>
       </div>
   
       <div class="footer-section">
-        <h4>Quick Links</h4>
+        <h4>QUICK LINKS</h4>
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./index.html/#latest-post">Latest Post</a></li>
@@ -31,11 +31,11 @@ const footer = `
       </div>
   
       <div class="footer-section">
-        <h4>Connect</h4>
+        <h4>CONNECT</h4>
         <ul class="socials">
-          <li><a href="https://www.facebook.com/profile.php?id=61554295590080">Facebook</a></li>
-          <li><a href="#">Email</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61554295590080" target="_blank">Facebook</a></li>
+          <li><a href="mailto:econclub1212@gmail.com" target="_blank">Email</a></li>
+          <li><a href="./index.html" target="_blank">Blog</a></li>
         </ul>
       </div>
     </div>

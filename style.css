@@ -9,6 +9,8 @@
     --link-hover: #bfa3ff;
     --text: #ffffff;
     --secondary-text: #b0b3b8;
+    --transition: all 0.5s ease-in-out;
+    --margin: 10%;
 }
 
 * {
@@ -17,10 +19,10 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
     line-height: 1.6;
-    font-size: 120%;
     background-color: var(--bg);
     color: var(--text);
 }
@@ -33,7 +35,6 @@ nav {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
-    font-size: 120%;
 }
 
 nav > div {
@@ -41,10 +42,10 @@ nav > div {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10%;
+    margin: 0 var(--margin);
 }
 
-.search {
+#search {
     display: flex;
     align-items: center;
     width: 30%;
@@ -74,7 +75,7 @@ nav > div {
 #searchButton:hover {
     background-color: var(--link-hover);
     border-color: var(--link-hover);
-    transition: all 0.5s ease-in-out;
+    transition: var(--transition)
 }
 
 nav a {
@@ -84,17 +85,17 @@ nav a {
   
 nav a:hover {
     color: var(--title-white);
-    transition: all 0.5s ease-in-out;
+    transition: var(--transition)
 }
 
 .main-page header {
     display: flex;
     height: 35em;
-    justify-content: center;
     background-image: url("./images/banner.png");
     background-attachment: fixed;
-    height: 35em;
     margin-bottom: 6em;
+    align-items: center;
+    padding: 2rem;
 }
 
 #econ {
@@ -102,14 +103,21 @@ nav a:hover {
     gap: 5%;
     align-items: center;
     justify-content: center;
-    margin: 14rem 10%;
     padding: 2rem;
     border-radius: 0.5rem;
     background-color: rgba(34, 40, 48, 0.8);
+    flex-wrap: wrap;
+    margin: 0 var(--margin);
+    width: 100%;
+}
+
+#econ img {
+    border-radius: 50%;
+    width: 15%
 }
 
 main {
-    margin: 0 10%;
+    margin: 0 var(--margin);
     padding: 2rem;
 }
 
@@ -120,10 +128,7 @@ main h2 {
 
 main h3 {
     margin-bottom: 0.5rem;
-}
-
-.post-page main {
-    margin: 0 25%;
+    font-size: 150%;
 }
 
 #posts {
@@ -158,6 +163,51 @@ main h3 {
     opacity: 0.6;
 }
 
+.post-page main {
+    display: flex;
+    gap: 10%;
+}
+
+.share-buttons {
+    position: sticky;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 1rem;
+    margin-top: 3rem;
+    width: 20%;
+  }
+  
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    color: white;
+    transition: border-color 0.2s;
+}
+  
+.share-btn:hover {
+    border-color: royalblue;
+}
+
+#progress-bar {
+    height: 3px;
+    width: 0%;
+    background: royalblue;
+    transition: width 0.1s ease-out;
+    margin: 3rem 0;
+}
+
+#post {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
 .post-page .post-meta {
     display: flex;
     gap: 5%;
@@ -168,30 +218,30 @@ main h3 {
     margin: 2rem 0;
 }
 
-.post-page h1 {
+.post-page main h1 {
     font-size: 300%;
     margin-bottom: 2rem;
 }
 
-.post-page h2 {
+.post-page main h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 250%;
 }
 
-.post-page h3 {
+.post-page main h3 {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     font-size: 200%;
 }
 
-.post-page h4 {
+.post-page main h4 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 150%;
 }
 
-.post-page p {
+.post-page main p {
     margin-bottom: 1rem;
 }
 
@@ -200,6 +250,7 @@ main h3 {
     padding: 0.25em;
     border-radius: 0.5rem;
 }
+  
 
 #latest-post .post-preview {
     display: flex;
@@ -223,34 +274,35 @@ a {
 
 a:hover {
     color: var(--link-hover);
-    transition: all 0.5s ease-in-out;
+    transition: var(--transition)
 }
 
 #categories {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
     margin-bottom: 5%;
+    overflow-x: auto;
 }
 
-#categories a {
-    display: block;
+#categories div {
     background-color: var(--secondary-bg);
     padding: 0.5rem;
     border-radius: 0.5rem;
+    min-width: 300px;
+    text-align: center;
 }
 
-#categories a:hover {
+#categories div:hover {
     background-color: var(--secondary-bg-hover);
+    transition: var(--transition);
 }
 
 footer {
     background-color: #1e1e2f;
     color: #ccc;
-    padding: 3rem 2rem 1rem;
-    font-size: 95%;
+    padding: 2rem;
     border-top: 1px solid #2f2f44;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.4);
-    margin-top: 4rem;
 }
   
 .footer-content {
@@ -258,12 +310,12 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15%;
-    max-width: 1200px;
-    margin: auto;
+    margin: 4rem var(--margin) 0 var(--margin);
 }
   
 .footer-section {
     flex: 1 1 200px;
+    margin-bottom: 2rem;
 }
   
 .footer-section h4 {
@@ -283,11 +335,11 @@ footer {
 .footer-section ul li a {
     color: var(--link);
     text-decoration: none;
-    transition: color 0.3s;
 }
   
 .footer-section ul li a:hover {
     color: var(--link-hover);
+    transition: var(--transition);
 }
   
 .footer-bottom {
@@ -297,4 +349,60 @@ footer {
     margin-top: 2rem;
     font-size: 0.85rem;
     color: #888;
+}
+
+@media (max-width: 1500px) {
+    :root {
+        --margin: 2.5%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .post-preview {
+        width: 47.5%;
+    }
+    #econ {
+        text-align: center;
+    }
+    .search {
+        width: 47.5%;
+    }
+    #latest-post .post-preview {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 2rem;
+    }
+    .post-preview {
+        width: 100%;
+    }
+    .search {
+        width: 70%;
+    }
+    #latest-post .post-preview {
+        padding: 0;
+        padding-bottom: 2rem;
+        background: 0;
+    }
+    .post-page main {
+        flex-direction: column;
+    }
+    #post {
+        width: 100%;
+    }
+    .share-buttons {
+        width: 100%;
+        flex-direction: row;
+        position: static;
+        padding: 0;
+    }
+    p, .share-btn {
+        margin-top: 2rem;
+    }
+    #progress-bar {
+        display: none;
+    }
 }
