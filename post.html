@@ -51,8 +51,6 @@
       
       // Copy link
       const url = encodeURIComponent(window.location.href);
-      const title = encodeURIComponent(document.title);
-
       function copyLink() {
         if (navigator.clipboard && navigator.clipboard.writeText) {
           navigator.clipboard.writeText(window.location.href)
@@ -79,14 +77,17 @@
 
       // Share
       function shareOnX() {
+        const title = encodeURIComponent(document.title);
         window.open(`https://twitter.com/intent/tweet?url=${url}&text=${title}`, "_blank");
       }
 
       function shareOnLinkedIn() {
+        const title = encodeURIComponent(document.title);
         window.open(`https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${title}`, "_blank");
       }
 
       function shareOnFacebook() {
+        const title = encodeURIComponent(document.title);
         window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank");
       }
 
