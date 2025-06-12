@@ -189,6 +189,7 @@ main h3 {
   display: flex;
   gap: 5%;
   color: var(--text);
+  flex-wrap: wrap;
 }
 
 .post-page .post-image {
@@ -424,7 +425,7 @@ footer {
   }
   .post-page .post-meta {
     font-size: 1.5rem;
-    flex-wrap: wrap;
+  
   }
   .share-buttons {
     width: 100%;
