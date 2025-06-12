@@ -385,7 +385,7 @@ footer {
   :root {
     --margin: 2.5%;
   }
-  html, #econ, footer {
+  html, #econ, footer, main {
     font-size: 1.5rem !important;
   }
   nav {
