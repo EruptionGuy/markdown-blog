@@ -29,7 +29,7 @@ html {
 }
 
 .reveal {
-  transform: translateY(150px);
+  transform: translateY(90px);
   opacity: 0;
   transition: 2s all ease;
 }
@@ -331,6 +331,7 @@ footer {
   gap: 1rem;
   width: 20%;
   margin-top: 3rem;
+  margin-bottom: 7%;
   align-self: flex-start;
 }
 
