@@ -18,6 +18,8 @@
 <body>
   <header></header>
   <main>
+    <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v23.0"></script>
     <div class="share-buttons">
       <div id="progress-bar"></div>
       <p>Share</p>
@@ -33,10 +35,9 @@
       </a>
     </div>
     <div id="post">
-      <div id="fb-root"></div>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v23.0"></script>
-      <div class="fb-comments" data-href=`${url}` data-width="" data-numposts="5"></div>
+      
     </div>
+    <div class="fb-comments" data-href=`${url}` data-width="500px" data-numposts="5"></div>
 
     <script src="libs/marked.min.js"></script>
     <script src="post.js"></script>
