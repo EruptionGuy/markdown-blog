@@ -196,27 +196,33 @@ main h3 {
   margin: 2rem 0;
 }
 
-.post-page main h1 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+.post-title {
+  font-size: 3rem !important;
+  margin-top: 0;
+  margin-bottom: 2rem !important;
 }
 
-.post-page main h2 {
+.post-page main h1 {
   font-size: 2.5rem;
   margin: 2rem 0 1rem;
 }
 
-.post-page main h3 {
+.post-page main h2 {
   font-size: 2rem;
   margin: 1.5rem 0 1rem;
 }
 
-.post-page main h4 {
+.post-page main h3 {
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 1rem 0 1rem;
 }
 
-.post-page main p {
+.post-page main h4 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.post-page main p, center {
   margin-bottom: 1rem;
 }
 
@@ -224,6 +230,24 @@ main h3 {
   background-color: var(--secondary-bg);
   padding: 0.25rem;
   border-radius: 0.5rem;
+}
+
+.post-page table {
+  display: block;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.post-page td, th {
+  border: 1px solid var(--secondary-text);
+  padding: 0.5rem;
+}
+
+.references {
+  text-indent: -3rem;
+  margin-left: 3rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 #latest-post .post-preview {
@@ -386,7 +410,7 @@ footer {
   :root {
     --margin: 2.5%;
   }
-  html, #econ, footer, main {
+  html, #econ, footer, main, center {
     font-size: 1.5rem !important;
   }
   nav {
@@ -427,6 +451,9 @@ footer {
   .post-page .post-meta {
     font-size: 1.5rem;
   
+  }
+  .footer-bottom {
+    font-size: 1.25rem;
   }
   .share-buttons {
     width: 100%;

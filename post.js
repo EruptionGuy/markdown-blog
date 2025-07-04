@@ -20,21 +20,44 @@ fetch(`posts/${file}`)
       content = markdown.replace(match[0], '').trim(); // remove metadata block
     }
 
-    // Parse the rest of the markdown
-    const htmlContent = marked.parse(content);
+    // Parse markdown to HTML
+    let htmlContent = marked.parse(content);
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlContent, 'text/html');
 
-    // Add title from frontmatter as <h1>
+    // Find the <h1> with "References"
+    const allH1s = doc.querySelectorAll('h1');
+    for (const h1 of allH1s) {
+      if (h1.textContent.trim().toLowerCase() === 'references') {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'references';
+
+        // Collect all <p> elements after the h1
+        let next = h1.nextElementSibling;
+        while (next && next.tagName === 'P') {
+          const current = next;
+          next = next.nextElementSibling;
+          wrapper.appendChild(current);
+        }
+
+        // Insert wrapper after the heading
+        h1.parentNode.insertBefore(wrapper, h1.nextElementSibling);
+        break;
+      }
+    }
+
+    // Inject final HTML
     const container = document.getElementById('post');
     container.innerHTML = `
-      <h1>${meta.title || file.replace('.md', '')}</h1>
+      <h1 class="post-title">${meta.title || file.replace('.md', '')}</h1>
       <div class="post-meta">
         <p><span class="post-meta-type">By</span>&nbsp;&nbsp;${meta.author || 'Unknown'}</p>
         <p><span class="post-meta-type">Published</span>&nbsp;&nbsp;${new Date(meta.date).toLocaleDateString()}</p>
         <p><span class="post-meta-type">Category</span>&nbsp;&nbsp;<a class="category-link" href="category.html?category=${encodeURIComponent(meta.category)}">${meta.category}</a></p>
       </div>
       ${meta.image ? `<img src="${meta.image}" class="post-image" alt="${meta.title}">` : ''}
-      ${htmlContent}
+      ${doc.body.innerHTML}
     `;
-    document.title = meta.title + " - eCON Club";
-  });
 
+    document.title = `${meta.title} - eCON Club`;
+  });
