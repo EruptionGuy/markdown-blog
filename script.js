@@ -1,13 +1,9 @@
 // List of markdown files
 const posts = [
-  '2025-06-09-another-day.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-09-another-day.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-10-i-love-econ.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-08-my-first-post.md',
-  '2025-06-09-another-day.md',
+  '2025-07-12-trump-sets-tariffs-how-is-vietnam-affected.md',
+  '2025-07-06-what-is-economics-macro-vs-micro-explained.md',
+  '2025-07-19-how-ai-is-reshaping-the-economy.md',
+  '2025-07-26-demand-and-supply-the-heart-of-market-economy.md',
 ];
 
 const url = new URL(window.location.href);
@@ -38,6 +34,11 @@ function renderPostPreview(metadata, filename, contentWithoutMeta, target) {
   const author = metadata.author || 'Unknown';
   const image = metadata.image || null;
   const category = metadata.category || 'Uncategorized';
+  const public = metadata.public || "true";
+
+  if (public == "false") {
+    return;
+  }
 
   const dateRaw = metadata.date || filename.split('-').slice(0, 3).join('-');
   const formattedDate = new Date(dateRaw).toLocaleDateString('en-US', {
