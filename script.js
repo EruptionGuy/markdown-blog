@@ -84,7 +84,7 @@ function renderPostPreview(metadata, filename, contentWithoutMeta, target) {
 
   postPreview.innerHTML = `
     <a href="post.html?file=${filename}">
-      ${image ? `<img class="preview-image" src="${image}" alt="${title}">` : ''}
+      ${image ? `<img class="preview-image" src="${image}" alt="${title}" loading="lazy">` : ''}
     </a>
     <div>
       <a href="post.html?file=${filename}"><h3>${title}</h3></a>
