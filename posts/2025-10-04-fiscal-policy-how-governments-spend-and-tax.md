@@ -33,8 +33,8 @@ Contractionary fiscal policy decreases aggregate demand and helps reduce inflati
 |  | Expansionary Fiscal Policy | Contractionary Fiscal Policy |
 | ----- | ----- | ----- |
 | Used when | The economy is in a recession | The economy is experiencing high inflation |
-| Actions | Increasing government spending Decreasing taxes | Decreasing government spending Increasing taxes |
-| Effects | Increases aggregate demand Reduces unemployment Leads to higher inflation | Decreases aggregate demand Increases unemployment Leads to lower inflation |
+| Actions | Increasing government spending<br>Decreasing taxes | Decreasing government spending<br>Increasing taxes |
+| Effects | Increases aggregate demand<br>Reduces unemployment<br>Leads to higher inflation | Decreases aggregate demand<br>Increases unemployment<br>Leads to lower inflation |
 
 # The History of Fiscal Policy
 

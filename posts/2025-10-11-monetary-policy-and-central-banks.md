@@ -51,8 +51,8 @@ Together, these measures lead to reduced borrowing, lower consumption and invest
 |  | Expansionary Monetary Policy | Contractionary Monetary Policy |
 | ----- | ----- | ----- |
 | Used when | The economy is in a recession | The economy is experiencing high inflation |
-| Actions | Decreasing interest rates Decreasing the required reserve ratio Buying bonds | Increasing interest rates Increasing the required reserve ratio Buying bonds |
-| Effects | Increases aggregate demand Reduces unemployment Leads to higher inflation | Decreases aggregate demand Increases unemployment Leads to lower inflation |
+| Actions | Decreasing interest rates<br>Decreasing the required reserve ratio<br>Buying bonds | Increasing interest rates<br> Increasing the required reserve ratio<br>Buying bonds |
+| Effects | Increases aggregate demand<br>Reduces unemployment<br>Leads to higher inflation | Decreases aggregate demand<br>Increases unemployment<br>Leads to lower inflation |
 
 # Frequently Asked Questions
 
