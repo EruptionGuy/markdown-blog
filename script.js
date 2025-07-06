@@ -6,13 +6,18 @@ const posts = [
   '2025-07-26-demand-and-supply-the-heart-of-market-economy.md',
   '2025-08-02-trade-war-us-china-tariffs-and-vietnams-role.md',
   '2025-08-09-blockchain-and-crypto-more-than-bitcoin.md',
-  '2025-08-16-how-economies-work-command-mark-and-mixed-systems.md',
+  '2025-08-16-how-economies-work-command-market-and-mixed-systems.md',
   '2025-08-23-why-oil-price-fluctuations-matter-to-you.md',
   '2025-08-30-the-gig-economy-work-without-walls.md',
   '2025-09-06-inflation-and-deflation-why-prices-keep-changing.md',
-  '2025-09-13-gold-prices-are-rising-invest-or-no.md',
+  '2025-09-13-gold-prices-are-rising-invest-or-not.md',
   '2025-09-20-sustainable-consumption-buy-less-choose-better.md',
   '2025-09-27-gdp-an-indicator-of-national-economic-health.md',
+  '2025-10-04-fiscal-policy-how-governments-spend-and-tax.md',
+  '2025-10-11-monetary-policy-and-central-banks.md',
+  '2025-10-18-greenwashing-when-eco-is-a-gimmick.md',
+  '2025-10-25-stocks-vs-bonds-whats-the-difference.md',
+  '2025-11-1-business-cycle-expansion-peak-recession-and-trough.md',
 ];
 
 const url = new URL(window.location.href);
@@ -93,11 +98,13 @@ Promise.all(posts.map(filename =>
   allPosts.sort((a, b) => new Date(b.metadata.date) - new Date(a.metadata.date));
 
   if (currentPage === "index.html" || currentPage === "") {
-    if (latestContainer && allPosts[0]) {
-      renderPostPreview(allPosts[0].metadata, allPosts[0].filename, allPosts[0].content, latestContainer);
+    const publicPosts = allPosts.filter(p => p.metadata.public !== "false");
+
+    if (latestContainer && publicPosts[0]) {
+      renderPostPreview(publicPosts[0].metadata, publicPosts[0].filename, publicPosts[0].content, latestContainer);
     }
 
-    allPosts.forEach(post => {
+    publicPosts.forEach(post => {
       renderPostPreview(post.metadata, post.filename, post.content, container);
     });
 

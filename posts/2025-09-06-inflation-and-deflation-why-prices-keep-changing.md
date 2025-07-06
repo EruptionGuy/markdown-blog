@@ -3,8 +3,9 @@ title: Inflation & Deflation: Why Prices Keep Changing
 author: Vu Le Trung Hieu
 date: 2025-09-06
 category: Understanding Economics
-image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
+image: images/blog-images/2025-09-06-inflation-and-deflation-why-prices-keep-changing/post-image.png
 public: true
+infographic: images/blog-images/2025-09-06-inflation-and-deflation-why-prices-keep-changing/infographic.png
 ---
 
 Inflation and deflation indicate an economy’s overall performance and stability. They reflect changes in the general price level and the value of money over time, influencing a wide range of economic factors.

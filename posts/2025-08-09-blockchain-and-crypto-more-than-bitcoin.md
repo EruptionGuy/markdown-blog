@@ -3,8 +3,9 @@ title: Blockchain & Crypto: More Than Bitcoin
 author: Vu Minh Thanh
 date: 2025-08-09
 category: Economic Trends
-image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
+image: images/blog-images/2025-08-09-blockchain-and-crypto-more-than-bitcoin/post-image.png
 public: true
+infographic: images/blog-images/2025-08-09-blockchain-and-crypto-more-than-bitcoin/infographic.png
 ---
 
 When talking about digital currency, lots of people will think about “Bitcoin”. But the world of blockchain and cryptocurrencies is not only just that; it is a dynamic world of technology, functionality, and much more. From decentralized finance (DeFi) and smart contracts to NFTs and supply chain innovations, blockchain technology is quietly reshaping entire industries. In this blog, we will explore more about this technology and its impact on our lives. 

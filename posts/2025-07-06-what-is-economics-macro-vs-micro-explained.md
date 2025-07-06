@@ -3,8 +3,9 @@ title: What Is Economics? Macro vs. Micro Explained
 author: Nguyen Van San
 date: 2025-07-06
 category: Understanding Economics
-image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
+image: images/blog-images/2025-07-06-what-is-economics-macro-vs-micro-explained/post-image.png
 public: true
+infographic: [images/blog-images/2025-07-06-what-is-economics-macro-vs-micro-explained/infographic.png, images/blog-images/2025-07-06-what-is-economics-macro-vs-micro-explained/infographic2.png]
 ---
 
 Economics is the social science that examines how decisions are made by individuals, business firms, and governments under scarcity conditions. It attempts to understand how scarce resources are allocated to meet people's needs and wants and how such decisions influence everyday life and the global economy.

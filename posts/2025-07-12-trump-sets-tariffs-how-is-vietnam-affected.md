@@ -3,8 +3,9 @@ title: Trump Sets Tariffs: How Is Vietnam Affected?
 author: Vu Le Trung Hieu
 date: 2025-07-12
 category: Economic News
-image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
+image: images/blog-images/2025-07-12-trump-sets-tariffs-how-is-vietnam-affected/post-image.png
 public: true
+infographic: images/blog-images/2025-07-12-trump-sets-tariffs-how-is-vietnam-affected/infographic.png
 ---
 
 On April 2, 2025, President Trump imposed “reciprocal” tariffs on all countries. Vietnam faced a 46% tariff. As a major exporter to the United States, Vietnam’s economy could be significantly impacted.

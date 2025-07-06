@@ -3,8 +3,9 @@ title: Trade Wars: US–China Tariffs & Vietnam’s Role
 author: Nguyen Viet Hoang
 date: 2025-08-02
 category: Economic News
-image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
+image: images/blog-images/2025-08-02-trade-war-us-china-tariffs-and-vietnams-role/post-image.png
 public: true
+infographic: images/blog-images/2025-08-02-trade-war-us-china-tariffs-and-vietnams-role/infographic.png
 ---
 # What Are Tariffs?
 

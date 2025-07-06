@@ -3,8 +3,9 @@ title: Why Oil Price Fluctuations Matter to You?
 author: Nguyen Hieu Nghi
 date: 2025-08-23
 category: Economic News
-image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg
+image: images/blog-images/2025-08-23-why-oil-price-fluctuations-matter-to-you/post-image.png
 public: true
+infographic: images/blog-images/2025-08-23-why-oil-price-fluctuations-matter-to-you/infographic.png
 ---
 
 Global Oil Price Drivers are primarily driven by the fundamental forces of supply and demand, with geopolitical events, economic growth, and the actions of key players such as OPEC also playing significant roles. OPEC, the Organization of Petroleum Exporting Countries, is the main influencer of fluctuations in oil prices. It comprises 12 countries: Algeria, Congo, Equatorial Guinea, Gabon, Iran, Iraq, Kuwait, Libya, Nigeria, Saudi Arabia, the United Arab Emirates, and Venezuela. 
