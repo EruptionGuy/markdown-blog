@@ -1,6 +1,6 @@
 ---
 title: How AI Is Reshaping the Economy
-author: Chau Le Bao Tran
+author: Chau Le Bao Tran, Vu Le Trung Hieu
 date: 2025-07-19
 category: Economic Trends
 image: https://static.vecteezy.com/system/resources/previews/020/933/072/non_2x/abstract-blur-gradient-background-vector.jpg

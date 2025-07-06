@@ -4,6 +4,15 @@ const posts = [
   '2025-07-06-what-is-economics-macro-vs-micro-explained.md',
   '2025-07-19-how-ai-is-reshaping-the-economy.md',
   '2025-07-26-demand-and-supply-the-heart-of-market-economy.md',
+  '2025-08-02-trade-war-us-china-tariffs-and-vietnams-role.md',
+  '2025-08-09-blockchain-and-crypto-more-than-bitcoin.md',
+  '2025-08-16-how-economies-work-command-mark-and-mixed-systems.md',
+  '2025-08-23-why-oil-price-fluctuations-matter-to-you.md',
+  '2025-08-30-the-gig-economy-work-without-walls.md',
+  '2025-09-06-inflation-and-deflation-why-prices-keep-changing.md',
+  '2025-09-13-gold-prices-are-rising-invest-or-no.md',
+  '2025-09-20-sustainable-consumption-buy-less-choose-better.md',
+  '2025-09-27-gdp-an-indicator-of-national-economic-health.md',
 ];
 
 const url = new URL(window.location.href);
