@@ -69,7 +69,7 @@ fetch(`posts/${file}`)
       }
     }
 
-    // Inject final HTML
+    // Inject final HTML into page
     const container = document.getElementById('post');
     container.innerHTML = `
       <h1 class="post-title">${meta.title || file.replace('.md', '')}</h1>
@@ -82,5 +82,21 @@ fetch(`posts/${file}`)
       ${doc.body.innerHTML}
     `;
 
+    // Update document title
     document.title = `${meta.title} - eCON Club`;
+
+    // Dynamically update meta tags
+    const setMeta = (selector, content) => {
+      const el = document.querySelector(selector);
+      if (el && content) el.setAttribute('content', content);
+    };
+
+    setMeta('meta[name="description"]', meta.description || "Read more on economics at eCON Club.");
+    setMeta('meta[name="author"]', meta.author || "eCON Club");
+
+    const pageUrl = window.location.href;
+    setMeta('meta[property="og:title"]', meta.title);
+    setMeta('meta[property="og:description"]', meta.description || "Read more on economics at eCON Club.");
+    setMeta('meta[property="og:image"]', meta.image || "https://economicsclubblog.vercel.app/images/banner.png");
+    setMeta('meta[property="og:url"]', pageUrl);
   });
