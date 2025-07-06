@@ -37,11 +37,24 @@ function extractMetadata(markdown) {
     const lines = match[1].split('\n');
     lines.forEach(line => {
       const [key, ...rest] = line.split(':');
-      meta[key.trim()] = rest.join(':').trim();
+      const value = rest.join(':').trim();
+
+      if (value.startsWith('[') && value.endsWith(']')) {
+        try {
+          // Parse as JSON array (handles quoted values correctly)
+          meta[key.trim()] = JSON.parse(value);
+        } catch (err) {
+          console.warn(`Invalid JSON array in metadata key "${key.trim()}":`, value);
+          meta[key.trim()] = value;
+        }
+      } else {
+        meta[key.trim()] = value;
+      }
     });
   }
   return meta;
 }
+
 
 function renderPostPreview(metadata, filename, contentWithoutMeta, target) {
   const title = metadata.title || filename.replace('.md', '');
@@ -119,6 +132,49 @@ Promise.all(posts.map(filename =>
         categoriesContainer.appendChild(div);
       });
     }
+
+    const viewInfographicBtn = document.getElementById("viewInfographics");
+    const gallery = document.getElementById("infographics")
+
+    viewInfographicBtn.addEventListener("click", () => {
+      if (viewInfographicBtn.textContent == "View Infographics") {
+        // Hide post previews
+        document.getElementById("posts").style.display = "none";
+      
+        // Clear previous infographics
+        gallery.innerHTML = "";
+      
+        allPosts.forEach(post => {
+          const infographics = post.metadata.infographic;
+      
+          if (!infographics) return;
+      
+          const urls = Array.isArray(infographics)
+            ? infographics
+            : [infographics];
+      
+          urls.forEach(url => {
+            const a = document.createElement("a");
+            a.href = `post.html?file=${post.filename}`;
+            const img = document.createElement("img");
+            img.src = url;
+            img.loading = "lazy"; // Lazy loading
+            img.className = "infographic-img";
+            a.appendChild(img)
+            gallery.appendChild(a);
+          });
+
+          // Show gallery
+          gallery.style.display = "block";    
+          viewInfographicBtn.textContent = "View Posts"
+        });
+      } else if (viewInfographicBtn.textContent == "View Posts") {
+        document.getElementById("posts").style.display = "flex";
+        gallery.style.display = "none";
+        viewInfographicBtn.textContent = "View Infographics";
+      }
+    });
+
   } else if (currentPage === "category.html") {
       const urlParams = new URLSearchParams(window.location.search);
       const targetCategory = urlParams.get('category');

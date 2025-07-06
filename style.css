@@ -185,6 +185,38 @@ main h3 {
   margin-bottom: 5%;
 }
 
+#viewInfographics {
+  background-color: var(--secondary-bg);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: none;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  margin-bottom: 2rem;
+  color: var(--link)
+}
+
+#viewInfographics:hover {
+  background-color: var(--secondary-bg-hover);
+  color: var(--link-hover);
+  transition: var(--transition);
+}
+
+#infographics {
+  column-count: 3;
+  column-gap: 1.5rem;
+}
+
+.infographic-img {
+  width: 100%;
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
 .post-page .post-meta {
   display: flex;
   gap: 5%;
@@ -307,6 +339,7 @@ a:hover {
   border-radius: 0.5rem;
   text-align: center;
   min-width: 150px;
+  font-size: inherit;
 }
 
 #categories div:hover {
@@ -416,7 +449,7 @@ footer {
   font-size: 1.5rem;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
+  transition: var(--transition);
 }
 
 #back-to-top:hover {
@@ -443,6 +476,9 @@ footer {
   }
   #latest-post .post-preview {
     flex-wrap: wrap;
+  }
+  #infographics {
+    column-count: 2;
   }
 }
 
@@ -483,8 +519,10 @@ footer {
     margin-bottom: 150px;
   }
   #categories div {
-    font-size: 1.2rem;
     min-width: 300px;
+  }
+  #infographics {
+    column-count: 1;
   }
   .post-page main {
     flex-direction: column;
