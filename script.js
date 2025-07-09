@@ -17,7 +17,7 @@ const posts = [
   '2025-10-11-monetary-policy-and-central-banks.md',
   '2025-10-18-greenwashing-when-eco-is-a-gimmick.md',
   '2025-10-25-stocks-vs-bonds-whats-the-difference.md',
-  '2025-11-1-business-cycle-expansion-peak-recession-and-trough.md',
+  '2025-11-01-the-rhythm-of-the-economy-what-the-business-cycle-tells-us.md',
 ];
 
 const url = new URL(window.location.href);
