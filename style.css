@@ -108,6 +108,7 @@ nav a:hover {
   align-items: center;
   padding: 2rem;
   margin-bottom: 6em;
+  background-size: cover;
 }
 
 #econ {
@@ -553,5 +554,12 @@ footer {
   }
   #post {
     width: 100%;
+  }
+}
+
+/* Remove scrolling background on mobile devices */
+@media (pointer: coarse) {
+  .main-page header {
+      background-attachment: scroll !important;
   }
 }
