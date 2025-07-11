@@ -214,7 +214,7 @@ main h3 {
   width: 100%;
   break-inside: avoid;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
