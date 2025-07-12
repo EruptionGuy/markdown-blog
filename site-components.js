@@ -34,7 +34,7 @@ const footer = `
         <h4>CONNECT</h4>
         <ul class="socials">
           <li><a href="https://www.facebook.com/profile.php?id=61554295590080" target="_blank">Facebook</a></li>
-          <li><a href="mailto:econclub1212@gmail.com" target="_blank">Email</a></li>
+          <li><a href="mailto:contact.econclub@gmail.com" target="_blank">Email</a></li>
           <li><a href="./index.html" target="_blank">Blog</a></li>
         </ul>
       </div>
