@@ -447,7 +447,7 @@ footer {
   border-radius: 0.5rem;
   width: 48px;
   height: 48px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: var(--transition);
@@ -510,6 +510,12 @@ footer {
   #search {
     width: 60%;
   }
+  #searchInput {
+    font-size: 1.5rem;
+  }
+  #searchButton {
+    font-size: 1.5rem;
+  }
   #latest-post .post-preview {
     margin: 0;
     padding: 0;
@@ -554,6 +560,14 @@ footer {
   }
   #post {
     width: 100%;
+  }
+
+  #back-to-top {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    /* border-radius: 50%; */
+    border-radius: 1.5rem;
   }
 }
 
