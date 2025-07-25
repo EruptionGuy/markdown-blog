@@ -4,7 +4,7 @@ author: Tran Ngoc Bao Long
 date: 2025-10-27
 category: Understanding Economics
 image: images/blog-images/2025-10-25-stocks-vs-bonds-whats-the-difference/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-10-25-stocks-vs-bonds-whats-the-difference/infographic.png
 
 ---

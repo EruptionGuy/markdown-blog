@@ -4,7 +4,7 @@ author: Vu Le Trung Hieu
 date: 2025-09-06
 category: Understanding Economics
 image: images/blog-images/2025-09-06-inflation-and-deflation-why-prices-keep-changing/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-09-06-inflation-and-deflation-why-prices-keep-changing/infographic.png
 ---
 

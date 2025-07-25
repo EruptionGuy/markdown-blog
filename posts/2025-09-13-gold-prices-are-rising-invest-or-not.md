@@ -4,7 +4,7 @@ author: Nguyen Ho Nguyen Thao
 date: 2025-09-13
 category: Economic News
 image: images/blog-images/2025-09-13-gold-prices-are-rising-invest-or-not/post-image.png
-public: true
+public: false
 ---
 
 # What Influences Gold Prices?

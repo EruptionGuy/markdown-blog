@@ -4,7 +4,7 @@ author: Vu Le Trung Hieu
 date: 2025-10-04
 category: Understanding Economics
 image: images/blog-images/2025-10-04-fiscal-policy-how-governments-spend-and-tax/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-10-04-fiscal-policy-how-governments-spend-and-tax/infographic.png
 ---
 

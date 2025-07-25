@@ -4,7 +4,7 @@ author: Chau Le Bao Tran, Vu Le Trung Hieu
 date: 2025-07-19
 category: Economic Trends
 image: images/blog-images/2025-07-19-how-ai-is-reshaping-the-economy/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-07-19-how-ai-is-reshaping-the-economy/infographic.png
 ---
 

@@ -4,7 +4,7 @@ author: Ly Gia Khang
 date: 2025-10-20
 category: Economic Trends
 image: images/blog-images/2025-10-18-greenwashing-when-eco-is-a-gimmick/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-10-18-greenwashing-when-eco-is-a-gimmick/infographic.png
 ---
 

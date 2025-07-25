@@ -4,7 +4,7 @@ author: Tran Hai Dang
 date: 2025-11-01
 category: Understanding Economics
 image: images/blog-images/2025-11-01-the-rhythm-of-the-economy-what-the-business-cycle-tells-us/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-11-01-the-rhythm-of-the-economy-what-the-business-cycle-tells-us/infographic.png
 
 ---

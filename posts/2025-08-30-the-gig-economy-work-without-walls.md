@@ -4,7 +4,7 @@ author: Le Bui Duc Lam
 date: 2025-08-30
 category: Economic Trends
 image: images/blog-images/2025-08-30-the-gig-economy-work-without-walls/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-08-30-the-gig-economy-work-without-walls/infographic.png
 ---
 

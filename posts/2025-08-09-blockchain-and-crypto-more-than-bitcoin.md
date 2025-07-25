@@ -4,7 +4,7 @@ author: Vu Minh Thanh
 date: 2025-08-09
 category: Economic Trends
 image: images/blog-images/2025-08-09-blockchain-and-crypto-more-than-bitcoin/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-08-09-blockchain-and-crypto-more-than-bitcoin/infographic.png
 ---
 

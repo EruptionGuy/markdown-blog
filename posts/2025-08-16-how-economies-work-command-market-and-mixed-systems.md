@@ -4,7 +4,7 @@ author: Nguyen Minh Khue, Vu Le Trung Hieu
 date: 2025-08-16
 category: Understanding Economics
 image: images/blog-images/2025-08-16-how-economies-work-command-market-and-mixed-systems/post-image.png
-public: true
+public: false
 infographic: images/blog-images/2025-08-16-how-economies-work-command-market-and-mixed-systems/infographic.png
 ---
 
