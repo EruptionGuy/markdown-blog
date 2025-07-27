@@ -1,7 +1,7 @@
 document.body.classList.add('post-page');
 
 const params = new URLSearchParams(window.location.search);
-const file = params.get('file');
+const file = params.get('article');
 
 fetch(`posts/${file}`)
   .then(response => response.text())

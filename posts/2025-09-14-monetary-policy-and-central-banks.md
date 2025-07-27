@@ -3,9 +3,9 @@ title: Monetary Policy & Central Banks
 author: Vu Le Trung Hieu
 date: 2025-10-13
 category: Understanding Economics
-image: images/blog-images/2025-10-11-monetary-policy-and-central-banks/post-image.png
+image: images/blog-images/2025-09-14-monetary-policy-and-central-banks/post-image.png
 public: false
-infographic: images/blog-images/2025-10-11-monetary-policy-and-central-banks/infographic.png
+infographic: images/blog-images/2025-09-14-monetary-policy-and-central-banks/infographic.png
 ---
 
 Monetary policy is a set of tools used by the central bank (like the Federal Reserve in the U.S. or the State Bank of Vietnam) to influence a country’s economy by managing the money supply and interest rates. 

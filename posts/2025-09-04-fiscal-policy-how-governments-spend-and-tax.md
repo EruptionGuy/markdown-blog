@@ -3,9 +3,9 @@ title: Fiscal Policy: How Governments Spend & Tax
 author: Vu Le Trung Hieu
 date: 2025-10-04
 category: Understanding Economics
-image: images/blog-images/2025-10-04-fiscal-policy-how-governments-spend-and-tax/post-image.png
+image: images/blog-images/2025-09-04-fiscal-policy-how-governments-spend-and-tax/post-image.png
 public: false
-infographic: images/blog-images/2025-10-04-fiscal-policy-how-governments-spend-and-tax/infographic.png
+infographic: images/blog-images/2025-09-04-fiscal-policy-how-governments-spend-and-tax/infographic.png
 ---
 
 Fiscal policy is the use of government spending and taxation to influence a country's economy. It is one of the main tools governments use to manage economic performance, especially to control inflation, reduce unemployment, and promote growth.

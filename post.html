@@ -50,10 +50,6 @@
     <div id="post">
     </div>
 
-    <button id="back-to-top" onclick="scrollToTop()">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-
     <script src="libs/marked.min.js"></script>
     <script src="post.js"></script>
     <script src="site-components.js"></script>
@@ -61,11 +57,6 @@
     <script src="reveal-animation.js"></script>
 
     <script>
-      // Scroll to top
-      function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-
       // Progress bar
       window.addEventListener('scroll', () => {
         const scrollTop = window.scrollY;

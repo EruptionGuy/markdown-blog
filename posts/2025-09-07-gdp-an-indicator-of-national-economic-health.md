@@ -3,9 +3,9 @@ title: GDP: An Indicator of National Economic Health
 author: Tran Hai Dang
 date: 2025-09-27
 category: Understanding Economics
-image: images/blog-images/2025-09-27-gdp-an-indicator-of-national-economic-health/post-image.png
+image: images/blog-images/2025-09-07-gdp-an-indicator-of-national-economic-health/post-image.png
 public: false
-infographic: images/blog-images/2025-09-27-gdp-an-indicator-of-national-economic-health/infographic.png
+infographic: images/blog-images/2025-09-07-gdp-an-indicator-of-national-economic-health/infographic.png
 ---
 
 Gross Domestic Product (GDP) measures a country's total economic output, offering an overview of growth, productivity, and economic health. It’s a key tool for understanding national and global economies.

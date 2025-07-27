@@ -3,14 +3,51 @@ const navbar = `
 <nav>
     <div>
       <h4><a href="./index.html">eCON CLUB</a></h4>
+      <div class="nav-categories">
+        <p><a href="/category.html?category=Understanding%20Economics">Understanding Economics</a></p>
+        <p><a href="/category.html?category=Economic%20Trends">Economic Terms</a></p>
+        <p><a href="/category.html?category=Economic%20News">Economic News</a></p>
+      </div>
       <form id="search">
         <input type="text" id="searchInput" placeholder="Search"/>
         <button id="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
+      <a href="javascript:void(0);" class="hamburger-button" onclick="toggleHamburgerMenu()"><i class="fa fa-bars"></i></a>
+    </div>
+    <div id="hamburger-menu">
+      <div>
+        <div class="nav-categories">
+          <a href="/category.html?category=Understanding%20Economics"><div><p>Understanding Economics</p></div></a>
+          <a href="/category.html?category=Economic%20Trends"><div><p>Economic Terms</p></div></a>
+          <a href="/category.html?category=Economic%20News"><div><p>Economic News</p></div></a>
+        </div>
+        <form id="search">
+          <input type="text" id="searchInput" placeholder="Search"/>
+          <button id="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
     </div>
 </nav>`;
 
 document.body.getElementsByTagName("header")[0].insertAdjacentHTML("beforebegin", navbar);
+
+function toggleHamburgerMenu() {
+  const menu = document.getElementById("hamburger-menu");
+  menu.classList.toggle("show");
+}
+
+
+// Back-to-top Button
+const backToTop = `
+<button id="back-to-top" onclick="scrollToTop()">
+  <i class="fas fa-arrow-up"></i>
+</button>`;
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+document.body.getElementsByTagName("main")[0].insertAdjacentHTML("afterend", backToTop);
 
 // Footer
 const footer = `

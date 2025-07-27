@@ -3,9 +3,9 @@ title: How AI Is Reshaping the Economy
 author: Chau Le Bao Tran, Vu Le Trung Hieu
 date: 2025-07-19
 category: Economic Trends
-image: images/blog-images/2025-07-19-how-ai-is-reshaping-the-economy/post-image.png
+image: images/blog-images/2025-08-03-how-ai-is-reshaping-the-economy/post-image.png
 public: false
-infographic: images/blog-images/2025-07-19-how-ai-is-reshaping-the-economy/infographic.png
+infographic: images/blog-images/2025-08-03-how-ai-is-reshaping-the-economy/infographic.png
 ---
 
 AI isn’t only streamlining Netflix recommendations, but it’s also rewiring the global economy. According to McKinsey, an American multinational strategy and management consulting firm, AI is expected to unlock $2.6 trillion to $4.4 trillion in annual value across industries. But where exactly is all this money coming from?

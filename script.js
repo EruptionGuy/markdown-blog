@@ -1,23 +1,21 @@
 // List of markdown files
 const posts = [
-  '2025-07-12-trump-sets-tariffs-how-is-vietnam-affected.md',
-  '2025-07-06-what-is-economics-macro-vs-micro-explained.md',
-  '2025-07-19-how-ai-is-reshaping-the-economy.md',
-  '2025-07-26-demand-and-supply-the-heart-of-market-economy.md',
-  '2025-08-02-trade-war-us-china-tariffs-and-vietnams-role.md',
-  '2025-08-09-blockchain-and-crypto-more-than-bitcoin.md',
-  '2025-08-16-how-economies-work-command-market-and-mixed-systems.md',
-  '2025-08-23-why-oil-price-fluctuations-matter-to-you.md',
-  '2025-08-30-the-gig-economy-work-without-walls.md',
-  '2025-09-06-inflation-and-deflation-why-prices-keep-changing.md',
-  '2025-09-13-gold-prices-are-rising-invest-or-not.md',
-  '2025-09-20-sustainable-consumption-buy-less-choose-better.md',
-  '2025-09-27-gdp-an-indicator-of-national-economic-health.md',
-  '2025-10-04-fiscal-policy-how-governments-spend-and-tax.md',
-  '2025-10-11-monetary-policy-and-central-banks.md',
-  '2025-10-18-greenwashing-when-eco-is-a-gimmick.md',
-  '2025-10-25-stocks-vs-bonds-whats-the-difference.md',
-  '2025-11-01-the-rhythm-of-the-economy-what-the-business-cycle-tells-us.md',
+  '2025-07-24-what-is-economics-macro-vs-micro-explained.md',
+  '2025-07-27-trump-sets-tariffs-how-is-vietnam-affected.md',
+  '2025-07-31-demand-and-supply-the-heart-of-market-economy.md',
+  '2025-08-03-how-ai-is-reshaping-the-economy.md',
+  '2025-08-07-trade-war-us-china-tariffs-and-vietnams-role.md',
+  '2025-08-10-blockchain-and-crypto-more-than-bitcoin.md',
+  '2025-08-14-how-economies-work-command-market-and-mixed-systems.md',
+  '2025-08-17-why-oil-price-fluctuations-matter-to-you.md',
+  '2025-08-21-inflation-and-deflation-why-prices-keep-changing.md',
+  '2025-08-24-the-gig-economy-work-without-walls.md',
+  '2025-08-31-sustainable-consumption-buy-less-choose-better.md',
+  '2025-09-04-fiscal-policy-how-governments-spend-and-tax.md',
+  '2025-09-07-gdp-an-indicator-of-national-economic-health.md',
+  '2025-09-14-monetary-policy-and-central-banks.md',
+  '2025-09-18-stocks-vs-bonds-whats-the-difference.md',
+  '2025-09-21-the-rhythm-of-the-economy-what-the-business-cycle-tells-us.md',
 ];
 
 const url = new URL(window.location.href);
@@ -83,11 +81,11 @@ function renderPostPreview(metadata, filename, contentWithoutMeta, target) {
   postPreview.className = 'post-preview';
 
   postPreview.innerHTML = `
-    <a href="post.html?file=${filename}">
+    <a href="post.html?article=${filename}">
       ${image ? `<img class="preview-image" src="${image}" alt="${title}" loading="lazy">` : ''}
     </a>
     <div>
-      <a href="post.html?file=${filename}"><h3>${title}</h3></a>
+      <a href="post.html?article=${filename}"><h3>${title}</h3></a>
       ${previewHtml}
       <p class="post-meta">
         By ${author} &nbsp;&bull;&nbsp; ${formattedDate} &nbsp;&bull;&nbsp;
@@ -155,7 +153,7 @@ Promise.all(posts.map(filename =>
       
           urls.forEach(url => {
             const a = document.createElement("a");
-            a.href = `post.html?file=${post.filename}`;
+            a.href = `post.html?article=${post.filename}`;
             const img = document.createElement("img");
             img.src = url;
             img.loading = "lazy"; // Lazy loading

@@ -3,9 +3,9 @@ title: Sustainable Consumption: Buy Less, Choose Better
 author: Le Bui Duc Lam
 date: 2025-09-20
 category: Economic Trends
-image: images/blog-images/2025-09-20-sustainable-consumption-buy-less-choose-better/post-image.png
+image: images/blog-images/2025-08-31-sustainable-consumption-buy-less-choose-better/post-image.png
 public: false
-infographic: images/blog-images/2025-09-20-sustainable-consumption-buy-less-choose-better/infographic.png
+infographic: images/blog-images/2025-08-31-sustainable-consumption-buy-less-choose-better/infographic.png
 ---
 
 ## *"Earth provides enough to satisfy every man's needs, but not every man's greed." \- Mahatma Gandhi*

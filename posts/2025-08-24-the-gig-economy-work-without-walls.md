@@ -3,9 +3,9 @@ title: The Gig Economy: Work Without Walls
 author: Le Bui Duc Lam
 date: 2025-08-30
 category: Economic Trends
-image: images/blog-images/2025-08-30-the-gig-economy-work-without-walls/post-image.png
+image: images/blog-images/2025-08-24-the-gig-economy-work-without-walls/post-image.png
 public: false
-infographic: images/blog-images/2025-08-30-the-gig-economy-work-without-walls/infographic.png
+infographic: images/blog-images/2025-08-24-the-gig-economy-work-without-walls/infographic.png
 ---
 
 ## *The term “gig” is a slang word for a job that lasts a specified time. It is borrowed from the music world, where performers book a gig \- a single or short-term engagement at various venues.*

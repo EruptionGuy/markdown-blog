@@ -42,20 +42,29 @@ html {
 nav {
   z-index: 1000;
   width: 100%;
-  padding: 1rem 2rem;
   background-color: var(--navbar-bg);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   position: sticky;
   top: 0;
-  font-size: 1.5rem;
 }
 
-nav > div {
+nav > div:nth-child(1) {
+  padding: 1rem 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 var(--margin);
+}
+
+.nav-categories {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav h4 {
+  font-size: 1.5rem;
 }
 
 #search {
@@ -98,6 +107,47 @@ nav a {
 nav a:hover {
   color: var(--link-hover);
   transition: var(--transition);
+}
+
+#hamburger-menu {
+  background-color: #2f2f44;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(-20px);
+  max-height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  display: none;
+}
+
+#hamburger-menu.show {
+  opacity: 1;
+  transform: translateY(0);
+  max-height: 500px; /* enough to contain all content */
+  pointer-events: auto;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+#hamburger-menu .nav-categories div {
+  padding: 0.8rem 2rem;
+}
+
+#hamburger-menu .nav-categories div:hover, #hamburger-menu .nav-categories div:focus {
+  background-color: var(--link-hover);
+  color: var(--text);
+  transition: var(--transition);
+}
+
+#hamburger-menu #search {
+  width: 100%;
+  padding: 0.8rem 2rem;
+}
+
+#hamburger-menu #searchInput {
+  width: 100%;
 }
 
 .main-page header {
@@ -465,6 +515,26 @@ footer {
   :root {
     --margin: 5%;
   }
+
+  nav > div:nth-child(1) #search {
+    display: none;
+  }
+
+  nav > div:nth-child(1) > div {
+    justify-content: space-between;
+  }
+
+  .hamburger-button, #hamburger-menu {
+    display: block;
+  }
+
+  #hamburger-menu .nav-categories {
+    display: none;
+  } 
+
+  #latest-post .post-preview {
+    flex-wrap: wrap;
+  }
 }
 
 /* Tablets */
@@ -472,14 +542,19 @@ footer {
   .post-preview {
     width: 47.5%;
   }
-  #search {
-    width: 47.5%;
-  }
-  #latest-post .post-preview {
-    flex-wrap: wrap;
-  }
+
   #infographics {
     column-count: 2;
+  }
+}
+
+@media (max-width: 950px) {
+  .nav-categories {
+    display: none;
+  }
+
+  #hamburger-menu .nav-categories {
+    display: block;
   }
 }
 
@@ -488,59 +563,85 @@ footer {
   :root {
     --margin: 2.5%;
   }
-  html, #econ, footer, main, center {
+
+  html, #econ, footer, main, center, nav {
     font-size: 1.5rem !important;
   }
-  nav {
-    font-size: 1.5rem;
+
+  nav > div:nth-child(1) {
+    font-size: 2rem;
+    height: 6rem;
   }
+
+  nav h4 {
+    font-size: 2rem;
+  }
+
+  .nav-categories {
+    display: none;
+  }
+
+  #hamburger-menu .nav-categories {
+    display: block;
+  }
+
   main h2 {
     font-size: 2.5rem;
   }
+
   main h3 {
     font-size: 2rem;
   }
+
   .post-preview {
     width: 100%;
     margin-bottom: 150px;
   }
+
   .post-meta {
     font-size: 0.75rem;
   }
-  #search {
-    width: 60%;
-  }
+
   #searchInput {
     font-size: 1.5rem;
   }
+
   #searchButton {
     font-size: 1.5rem;
   }
+
   #latest-post .post-preview {
     margin: 0;
     padding: 0;
     margin-bottom: 150px;
     background: none;
   }
+
   #categories {
     margin-bottom: 150px;
   }
+
   #categories div {
     min-width: 300px;
   }
+
   #infographics {
     column-count: 1;
   }
+
   .post-page main {
     flex-direction: column;
   }
+
   .post-page .post-meta {
     font-size: 1.5rem;
   
   }
+
   .footer-bottom {
     font-size: 1.25rem;
   }
+
   .share-buttons {
     width: 100%;
     flex-direction: row;
@@ -550,14 +651,17 @@ footer {
     margin-top: 2rem;
     gap: 5%;
   }
+
   .share-buttons p, .share-btn {
     width: 80px;
     height: 80px;
     line-height: 2;
   }
+
   #progress-bar {
     display: none;
   }
+
   #post {
     width: 100%;
   }
