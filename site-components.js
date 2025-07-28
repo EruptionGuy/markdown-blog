@@ -5,7 +5,7 @@ const navbar = `
       <h4><a href="./index.html">eCON CLUB</a></h4>
       <div class="nav-categories">
         <p><a href="/category.html?category=Understanding%20Economics">Understanding Economics</a></p>
-        <p><a href="/category.html?category=Economic%20Trends">Economic Terms</a></p>
+        <p><a href="/category.html?category=Economic%20Trends">Economic Trends</a></p>
         <p><a href="/category.html?category=Economic%20News">Economic News</a></p>
       </div>
       <form id="search">
@@ -18,7 +18,7 @@ const navbar = `
       <div>
         <div class="nav-categories">
           <a href="/category.html?category=Understanding%20Economics"><div><p>Understanding Economics</p></div></a>
-          <a href="/category.html?category=Economic%20Trends"><div><p>Economic Terms</p></div></a>
+          <a href="/category.html?category=Economic%20Trends"><div><p>Economic Trends</p></div></a>
           <a href="/category.html?category=Economic%20News"><div><p>Economic News</p></div></a>
         </div>
         <form id="search2">
