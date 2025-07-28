@@ -21,8 +21,8 @@ const navbar = `
           <a href="/category.html?category=Economic%20Trends"><div><p>Economic Terms</p></div></a>
           <a href="/category.html?category=Economic%20News"><div><p>Economic News</p></div></a>
         </div>
-        <form id="search">
-          <input type="text" id="searchInput" placeholder="Search"/>
+        <form id="search2">
+          <input type="text" id="searchInput2" placeholder="Search"/>
           <button id="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>

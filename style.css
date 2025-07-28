@@ -67,13 +67,13 @@ nav h4 {
   font-size: 1.5rem;
 }
 
-#search {
+#search, #search2 {
   display: flex;
   align-items: center;
   width: 30%;
 }
 
-#searchInput {
+#searchInput, #searchInput2 {
   border-radius: 0.5rem 0 0 0.5rem;
   border: 2px solid var(--link);
   background-color: var(--secondary-bg);
@@ -141,12 +141,12 @@ nav a:hover {
   transition: var(--transition);
 }
 
-#hamburger-menu #search {
+#search2 {
   width: 100%;
   padding: 0.8rem 2rem;
 }
 
-#hamburger-menu #searchInput {
+#searchInput2 {
   width: 100%;
 }
 
