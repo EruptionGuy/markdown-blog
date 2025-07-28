@@ -144,7 +144,9 @@ Promise.all(posts.map(filename =>
       
         allPosts.forEach(post => {
           const infographics = post.metadata.infographic;
+          const public = post.metadata.public;
       
+          if (public == "false") return;
           if (!infographics) return;
       
           const urls = Array.isArray(infographics)
