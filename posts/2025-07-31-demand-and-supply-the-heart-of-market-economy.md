@@ -12,7 +12,7 @@ public: true
 
 Demand and supply are the pillars of any market economy. They describe the relationship between buyers and sellers. A demand and supply graph is a graphical illustration of the relationship.
 
-![Demand and Supply Model](../images/blog-images/2025-07-26-demand-and-supply-the-heart-of-market-economy/demand-supply-model.png)
+![Demand and Supply Model](../images/blog-images/2025-07-31-demand-and-supply-the-heart-of-market-economy/demand-supply-model.png)
 
 **Demand Curve**: The demand curve slopes downward as a result of the law of demand, which states that as the price of a good or service decreases, consumers can and will purchase more of such goods and services. Conversely, as the price increases, they will purchase less of it.
 
@@ -46,11 +46,11 @@ When the market is out of equilibrium, there will be surpluses or shortages. The
 
 Changes in demand or supply will cause relative shifts in their curves, altering the equilibrium price and quantity.
 
-![Demand Shift](../images/blog-images/2025-07-26-demand-and-supply-the-heart-of-market-economy/demand-shift.png)
+![Demand Shift](../images/blog-images/2025-07-31-demand-and-supply-the-heart-of-market-economy/demand-shift.png)
 
 A shift in the demand curve occurs when factors other than price cause consumers to buy more or less of a good or service at every price level. Several key factors can drive this shift, including changes in consumer preferences, income levels, the prices of substitute or complementary goods, population growth, and future expectations. For example, if consumers' income rises or a product becomes more fashionable, demand increases, shifting the demand curve to the right. This leads to a higher equilibrium price and quantity, as buyers are willing to pay more and purchase more overall. Conversely, if incomes fall or the product becomes outdated, demand decreases, shifting the curve to the left, resulting in a lower equilibrium price and quantity.
 
-![Supply Shift](../images/blog-images/2025-07-26-demand-and-supply-the-heart-of-market-economy/supply-shift.png)
+![Supply Shift](../images/blog-images/2025-07-31-demand-and-supply-the-heart-of-market-economy/supply-shift.png)
 
 A shift in the supply curve happens when producers are willing to supply more or less of a good at every price point due to changes in non-price factors. These include variations in the cost of production, technological advancements, the number of suppliers, government taxes or subsidies, and producer expectations about future prices. When production becomes cheaper due to technology or subsidies, supply increases, shifting the curve to the right. This typically causes the equilibrium price to fall and the quantity sold to rise, as goods become cheaper and more abundant. On the other hand, if production costs rise or supply is disrupted, the curve shifts to the left, resulting in a higher equilibrium price and a lower quantity available in the market.
 

@@ -13,7 +13,7 @@ Music follows a rhythm, and so does the economy: a recurring cycle of expansion,
 
 # Understanding the Business Cycle
 
-![Business Cycle Graph](../images/blog-images/2025-11-01-the-rhythm-of-the-economy-what-the-business-cycle-tells-us/business-cycle-graph.png)
+![Business Cycle Graph](../images/blog-images/2025-09-21-the-rhythm-of-the-economy-what-the-business-cycle-tells-us/business-cycle-graph.png)
 
 The **business cycle** refers to the natural rise and fall of economic growth that occurs over time in an economy. It is measured by fluctuations in real GDP and other economic indicators like employment, consumer spending, and industrial production. These ups and downs are recurring, though not always predictable in timing or magnitude. There are four stages of a business cycle: expansion, peak, recession, and trough.
 
