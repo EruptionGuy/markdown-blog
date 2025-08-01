@@ -1,7 +1,7 @@
 ---
 title: Sustainable Consumption: Buy Less, Choose Better
 author: Le Bui Duc Lam
-date: 2025-09-20
+date: 2025-08-31
 category: Economic Trends
 image: images/blog-images/2025-08-31-sustainable-consumption-buy-less-choose-better/post-image.png
 public: false

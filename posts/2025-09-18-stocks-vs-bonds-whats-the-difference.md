@@ -1,7 +1,7 @@
 ---
 title: Stocks vs. Bonds: What’s the Difference?
 author: Tran Ngoc Bao Long
-date: 2025-10-27
+date: 2025-09-18
 category: Understanding Economics
 image: images/blog-images/2025-09-18-stocks-vs-bonds-whats-the-difference/post-image.png
 public: false

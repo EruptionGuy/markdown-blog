@@ -1,7 +1,7 @@
 ---
 title: Gold Prices Are Rising: Invest or Not?
 author: Nguyen Ho Nguyen Thao
-date: 2025-09-13
+date: 2025-08-28
 category: Economic News
 image: images/blog-images/2025-08-28-gold-prices-are-rising-invest-or-not/post-image.png
 public: false

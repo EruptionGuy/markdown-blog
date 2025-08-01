@@ -1,7 +1,7 @@
 ---
 title: Greenwashing: When “Eco” Is a Gimmick
 author: Ly Gia Khang
-date: 2025-10-20
+date: 2025-09-11
 category: Economic Trends
 image: images/blog-images/2025-09-11-greenwashing-when-eco-is-a-gimmick/post-image.png
 public: false

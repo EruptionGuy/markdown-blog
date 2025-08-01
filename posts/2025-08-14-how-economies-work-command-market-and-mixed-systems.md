@@ -1,7 +1,7 @@
 ---
 title: How Economies Work: Command, Market & Mixed Systems
 author: Nguyen Minh Khue, Vu Le Trung Hieu
-date: 2025-08-16
+date: 2025-08-14
 category: Understanding Economics
 image: images/blog-images/2025-08-14-how-economies-work-command-market-and-mixed-systems/post-image.png
 public: false

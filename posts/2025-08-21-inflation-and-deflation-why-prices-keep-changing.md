@@ -1,7 +1,7 @@
 ---
 title: Inflation & Deflation: Why Prices Keep Changing
 author: Vu Le Trung Hieu
-date: 2025-09-06
+date: 2025-08-21
 category: Understanding Economics
 image: images/blog-images/2025-08-21-inflation-and-deflation-why-prices-keep-changing/post-image.png
 public: false

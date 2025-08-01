@@ -1,7 +1,7 @@
 ---
 title: The Gig Economy: Work Without Walls
 author: Le Bui Duc Lam
-date: 2025-08-30
+date: 2025-08-24
 category: Economic Trends
 image: images/blog-images/2025-08-24-the-gig-economy-work-without-walls/post-image.png
 public: false

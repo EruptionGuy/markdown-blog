@@ -1,7 +1,7 @@
 ---
 title: Demand and Supply: The Heart of Market Economy
 author: Nguyen Ho Khoa, Vu Le Trung Hieu
-date: 2025-07-26
+date: 2025-07-31
 category: Understanding Economics
 image: images/blog-images/2025-07-31-demand-and-supply-the-heart-of-market-economy/post-image.png
 infographic: images/blog-images/2025-07-31-demand-and-supply-the-heart-of-market-economy/infographic.png

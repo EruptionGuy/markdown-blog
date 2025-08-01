@@ -1,7 +1,7 @@
 ---
 title: Why Oil Price Fluctuations Matter to You?
 author: Nguyen Hieu Nghi
-date: 2025-08-23
+date: 2025-08-17
 category: Economic News
 image: images/blog-images/2025-08-17-why-oil-price-fluctuations-matter-to-you/post-image.png
 public: false
