@@ -4,7 +4,7 @@ author: Nguyen Viet Hoang
 date: 2025-08-07
 category: Economic News
 image: images/blog-images/2025-08-07-trade-war-us-china-tariffs-and-vietnams-role/post-image.png
-public: false
+public: true
 infographic: images/blog-images/2025-08-07-trade-war-us-china-tariffs-and-vietnams-role/infographic.png
 ---
 # What Are Tariffs?

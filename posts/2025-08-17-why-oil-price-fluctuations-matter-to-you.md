@@ -4,7 +4,7 @@ author: Nguyen Hieu Nghi
 date: 2025-08-17
 category: Economic News
 image: images/blog-images/2025-08-17-why-oil-price-fluctuations-matter-to-you/post-image.png
-public: false
+public: true
 infographic: images/blog-images/2025-08-17-why-oil-price-fluctuations-matter-to-you/infographic.png
 ---
 
