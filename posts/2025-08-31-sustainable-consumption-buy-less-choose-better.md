@@ -4,7 +4,7 @@ author: Le Bui Duc Lam
 date: 2025-08-31
 category: Economic Trends
 image: images/blog-images/2025-08-31-sustainable-consumption-buy-less-choose-better/post-image.png
-public: false
+public: true
 infographic: images/blog-images/2025-08-31-sustainable-consumption-buy-less-choose-better/infographic.png
 ---
 
