@@ -4,7 +4,7 @@ author: Tran Hai Dang
 date: 2025-09-07
 category: Understanding Economics
 image: images/blog-images/2025-09-07-gdp-an-indicator-of-national-economic-health/post-image.png
-public: false
+public: true
 infographic: images/blog-images/2025-09-07-gdp-an-indicator-of-national-economic-health/infographic.png
 ---
 
