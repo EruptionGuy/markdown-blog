@@ -16,6 +16,12 @@ const posts = [
   '2025-09-14-monetary-policy-and-central-banks.md',
   '2025-09-18-stocks-vs-bonds-whats-the-difference.md',
   '2025-09-21-the-rhythm-of-the-economy-what-the-business-cycle-tells-us.md',
+  '2025-09-30-elasticity-of-demand-and-supply.md',
+  '2025-10-12-the-economics-of-immigration.md',
+  '2025-10-24-trumps-new-visa-policies-what-they-mean-for-the-us-economy.md',
+  '2025-11-06-banking-how-banks-create-money.md',
+  '2025-11-20-market-failures-and-externalities.md',
+  '2025-12-04-foreign-aid-changing-the-world-or-just-a-dream.md'
 ];
 
 const url = new URL(window.location.href);
