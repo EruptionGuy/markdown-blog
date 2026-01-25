@@ -18,7 +18,7 @@ Most countries in the world have their own central bank. Well-known examples inc
 
 # Expansionary vs. Contractionary Monetary Policy
 
-Depending on the economic situation, central banks can decide when to use expansionary or contractionary monetary policy. Similar to [fiscal policy](/post.html?file=2025-10-04-fiscal-policy-how-governments-spend-and-tax.md), the goal of monetary policy is to restore the economy back to long-run equilibrium, where resources are fully employed and inflation is stable.
+Depending on the economic situation, central banks can decide when to use expansionary or contractionary monetary policy. Similar to [fiscal policy](/post.html?article=2025-09-04-fiscal-policy-how-governments-spend-and-tax.md), the goal of monetary policy is to restore the economy back to long-run equilibrium, where resources are fully employed and inflation is stable.
 
 ## Expansionary Monetary Policy
 
