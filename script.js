@@ -21,7 +21,18 @@ const posts = [
   '2025-10-24-trumps-new-visa-policies-what-they-mean-for-the-us-economy.md',
   '2025-11-06-banking-how-banks-create-money.md',
   '2025-11-20-market-failures-and-externalities.md',
-  '2025-12-04-foreign-aid-changing-the-world-or-just-a-dream.md'
+  '2025-12-04-foreign-aid-changing-the-world-or-just-a-dream.md',
+  "2026-01-06-elasticity-of-demand-and-supply.md",
+  "2026-01-18-productivity-and-innovation.md",
+  "2026-02-02-minimum-wage-balancing-employment-and-poverty-reduction.md",
+  "2026-02-21-inflation-causes-and-consequences.md",
+  "2026-03-05-crypto-and-the-future-of-money.md",
+  "2026-03-19-the-economics-of-climate-change.md",
+  "2026-04-07-game-theory-intro-and-applications.md",
+  "2026-04-24-automation-and-the-future-of-work.md",
+  "2026-05-10-supply-chain-resilience.md",
+  "2026-05-28-types-of-market-structures.md",
+  "2026-06-15-economics-of-digital-platforms.md"
 ];
 
 const url = new URL(window.location.href);

@@ -4,7 +4,7 @@ author: Nguyen Van San
 date: 2025-09-30
 category: Understanding Economics
 image: images/blog-images/2025-09-30-elasticity-of-demand-and-supply/post-image.png
-public: true
+public: false
 # infographic: images/blog-images/2025-09-21-the-rhythm-of-the-economy-what-the-business-cycle-tells-us/infographic.png
 
 ---
