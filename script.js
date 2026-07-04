@@ -32,7 +32,8 @@ const posts = [
   "2026-04-24-automation-and-the-future-of-work.md",
   "2026-05-10-supply-chain-resilience.md",
   "2026-05-28-types-of-market-structures.md",
-  "2026-06-15-economics-of-digital-platforms.md"
+  "2026-06-15-economics-of-digital-platforms.md",
+  "2026-07-04-can-economics-be-fun-we-think-so.md"
 ];
 
 const url = new URL(window.location.href);
