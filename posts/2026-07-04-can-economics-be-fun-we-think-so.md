@@ -35,13 +35,13 @@ Without realizing it, they were already thinking like economists. In fact, they 
 
 The conversations continued during our afternoon session on Needs and Wants. Rather than treating it as a lesson with right or wrong answers, we encouraged the children to explain their reasoning and challenge one another respectfully. That approach made the discussion much more lively, and it quickly became clear that the children were not afraid to think beyond the examples we had prepared.
 
-![teaching-1](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-1.jpg)
+![teaching-1](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-1.JPG)
 
-![teaching-2](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-2.jpg)
+![teaching-2](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-2.JPG)
 
-![teaching-3](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-3.jpg)
+![teaching-3](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-3.JPG)
 
-![teaching-4](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-4.jpg)
+![teaching-4](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/teaching-4.JPG)
 
 One discussion quickly stood out.
 
@@ -53,7 +53,7 @@ What mattered was that the children were questioning assumptions, defending thei
 
 Our visit also included tours of Tân Vũ Port and Nam Đình Vũ Port, two important parts of Hải Phòng's port system and some of the busiest logistics gateways in northern Vietnam. Hải Phòng is often called the country's main seaport in the North, and these ports help connect factories, warehouses, and international shipping routes. What made the visit especially interesting was seeing how quickly cargo moves from ship to shore to truck, with containers arriving from across the region and heading out to industrial zones, distribution centers, and export markets. It was a vivid reminder that behind every product we use, there is a whole network of trade, transport, planning, and coordination working quietly in the background. The economic ideas we discussed with the children in the morning suddenly felt much larger and more tangible when we saw how goods actually move through the real economy.
 
-![port](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/port.jpg)
+![port](images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/port.JPG)
 
 Looking back, the most memorable part of the trip was not a perfect answer or a successful activity. It was the curiosity the children brought to every conversation. Their questions reminded us that learning becomes far more meaningful when students are encouraged to explore, debate, and discover ideas for themselves. Sometimes, the most powerful lessons come not from being told the answer, but from being invited to think through the question.
 
