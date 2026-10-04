@@ -1,6 +1,6 @@
 ---
 title: Game Theory: Intro & Applications
-author: Vũ Gia Hưng
+author: Vu Gia Hung
 date: 2026-04-07
 category: Understanding Economics
 image: images/blog-images/2026-04-07-game-theory-intro-and-applications/post-image.png

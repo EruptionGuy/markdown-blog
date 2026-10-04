@@ -1,6 +1,6 @@
 ---
 title: Supply Chain Resilience
-author: Bùi Hải Hà
+author: Bui Hai Ha
 date: 2026-05-10
 category: Economic News
 image: images/blog-images/2026-05-10-supply-chain-resilience/post-image.png

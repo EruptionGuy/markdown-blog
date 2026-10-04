@@ -33,7 +33,9 @@ const posts = [
   "2026-05-10-supply-chain-resilience.md",
   "2026-05-28-types-of-market-structures.md",
   "2026-06-15-economics-of-digital-platforms.md",
-  "2026-07-04-can-economics-be-fun-we-think-so.md"
+  "2026-07-04-can-economics-be-fun-we-think-so.md",
+  "2026-07-17-taxes-progressive-vs-regressive.md",
+  "2026-07-31-brics-can-it-challenge-the-west.md"
 ];
 
 const url = new URL(window.location.href);

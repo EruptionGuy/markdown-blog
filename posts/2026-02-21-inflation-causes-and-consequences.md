@@ -1,6 +1,6 @@
 ---
 title: Inflation: Causes and Consequences
-author: Trịnh Thế Sang
+author: Trinh The Sang
 date: 2026-02-21
 category: Understanding Economics
 image: images/blog-images/2026-02-21-inflation-causes-and-consequences/post-image.png

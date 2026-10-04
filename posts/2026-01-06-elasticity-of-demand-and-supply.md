@@ -1,6 +1,6 @@
 ---
 title: Elasticity of Demand and Supply
-author: Nguyễn Trúc Linh
+author: Nguyen Truc Linh
 date: 2026-01-06
 category: Understanding Economics
 image: images/blog-images/2026-01-06-elasticity-of-demand-and-supply/post-image.png

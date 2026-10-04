@@ -1,6 +1,6 @@
 ---
 title: The Economics of Climate Change
-author: Lê Anh Quân
+author: Le Anh Quan
 date: 2026-03-19
 category: Economic Trends
 image: images/blog-images/2026-03-19-the-economics-of-climate-change/post-image.png

@@ -1,6 +1,6 @@
 ---
 title: Can Economics Be Fun? We Think So!
-author: Vũ Lê Trung Hiếu
+author: Vu Le Trung Hieu
 date: 2026-07-04
 category: Economic News
 image: images/blog-images/2026-07-04-can-economics-be-fun-we-think-so/post-image.png

@@ -1,6 +1,6 @@
 ---
 title: Economics of Digital Platforms
-author: Nguyễn Minh Thuý
+author: Nguyen Minh Thuy
 date: 2026-06-15
 category: Economic Trends
 image: images/blog-images/2026-06-15-economics-of-digital-platforms/post-image.png

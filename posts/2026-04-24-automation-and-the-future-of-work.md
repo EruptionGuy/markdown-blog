@@ -1,6 +1,6 @@
 ---
 title: Automation and the Future of Work
-author: Thân Thuỳ Dương
+author: Than Thuy Duong
 date: 2026-04-24
 category: Economic Trends
 image: images/blog-images/2026-04-24-automation-and-the-future-of-work/post-image.png

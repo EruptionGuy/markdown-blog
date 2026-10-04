@@ -1,6 +1,6 @@
 ---
 title: Types of Market Structures
-author: Trần Nguyễn Gia Bình
+author: Tran Nguyen Gia Binh
 date: 2026-05-28
 category: Understanding Economics
 image: images/blog-images/2026-05-28-types-of-market-structures/post-image.png

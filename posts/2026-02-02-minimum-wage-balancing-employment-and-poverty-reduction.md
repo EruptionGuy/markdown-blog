@@ -1,6 +1,6 @@
 ---
 title: Minimum Wage: Balancing Employment and Poverty Reduction
-author: Phạm Thị Diệu Anh
+author: Pham Thi Dieu Anh
 date: 2026-02-02
 category: Economic Trends
 image: images/blog-images/2026-02-02-minimum-wage-balancing-employment-and-poverty-reduction/post-image.png

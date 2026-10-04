@@ -1,6 +1,6 @@
 ---
 title: Crypto and the Future of Money
-author: Võ Khải Minh
+author: Vo Khai Minh
 date: 2026-03-05
 category: Economic Trends
 image: images/blog-images/2026-03-05-crypto-and-the-future-of-money/post-image.png

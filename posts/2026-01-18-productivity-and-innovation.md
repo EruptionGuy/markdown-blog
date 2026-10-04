@@ -1,6 +1,6 @@
 ---
 title: Productivity and Innovation
-author: Nguyễn Thị Kim Thanh
+author: Nguyen Thi Kim Thanh
 date: 2026-01-18
 category: Understanding Economics
 image: images/blog-images/2026-01-18-productivity-and-innovation/post-image.png
